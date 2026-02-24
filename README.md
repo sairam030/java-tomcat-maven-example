@@ -6,6 +6,11 @@ This is an example ready-to-deploy java web application built for Tomcat using M
 
 (need maven and java installed)
 
+to chane the port 
+```
+/opt/tomcat/conf/server.xml  -- 8081 connector
+```
+
 ```
 mvn package
 java -jar target/dependency/webapp-runner.jar target/*.war
